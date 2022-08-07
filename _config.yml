@@ -1,0 +1,55 @@
+
+# Site settings
+title: GO-INIT
+description: |
+  In IT 2 Win IT
+owner: GO-INIT
+first_published: 2022 
+email: info@go-init.com
+baseurl: ""
+url: "http://www.go-init.com" 
+social:
+  twitter: https://twitter.com/logitblog
+  github: https://github.com/ryanbijkerk
+  linkedin-square: https://linkedin.com/in/ryanbijkerk
+  # facebook-official: 
+  # google-plus-square: 
+  # email: /contact/
+  # flickr:
+  # instagram:
+  # youtube-square:
+  # spotify:
+  # stack-overflow:
+  # vimeo:
+  # reddit:
+  # stubleupon:
+  # delicious:
+  # pied-piper:
+  # digg:
+  # soundcloud:
+  # deviantart:
+  # angellist:
+  # tumblr-square:
+  # stackexchange:
+  # weibo:
+  # trello:
+  # foursquare:
+  # linux:
+  # bitbucket-square:
+  # vk:
+  # slack:
+  # vine:
+  # weixin:
+  # yelp:
+  # skyatlas:
+  # leanpub:
+  # connectdevelop:
+  # ils:
+  # forumbee:
+  # tripadvisor:
+  # amazon:
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
