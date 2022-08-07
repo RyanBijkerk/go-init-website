@@ -6,8 +6,6 @@ description: |
 owner: GO-INIT
 first_published: 2022 
 email: info@go-init.com
-baseurl: ""
-url: "https://www.go-init.com" 
 social:
   twitter: https://twitter.com/logitblog
   github: https://github.com/ryanbijkerk
