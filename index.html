@@ -79,10 +79,7 @@ layout: landing
 								<h2>Contact</h2>
 							</header>
 
-
 							<form method="post" id="contactForm" action="https://getform.io/f/6d6d1e58-d307-4d1c-964b-b58cb53bf70a">						
-
-								
 								<div class="row uniform">
 									<div class="6u 12u$(xsmall)">
 										<input type="text" name="form-name" id="form-name" value="" placeholder="Name" />
@@ -96,16 +93,19 @@ layout: landing
 									<div class="g-recaptcha" data-sitekey="6LcFQ1khAAAAAEdCjTWxBJbnu2KXcxxsGzLp4ajs" data-callback="verifyCallback"></div>
 									<div class="12u$">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" disabled="true" /></li>
+											<li><input type="submit" value="Send Message" class="special" disabled="true"/></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</div>
 								</div>
 							</form>
+
 							<script>
-								var verifyCallback = function(response) {
-									$('.contactForm :input[type="submit"]').prop('disabled', false);
-								};
+								function verifyCallback() {
+									$("form").each(function() {
+										$(this).find(':input[type="submit"]').prop('disabled', false);
+									});
+								}
 							</script>
 						</div>
 					</section>
