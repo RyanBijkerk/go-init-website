@@ -90,7 +90,7 @@ layout: landing
 									<div class="12u$">
 										<textarea name="form-message" id="form-message" placeholder="Enter your message" rows="6"></textarea>
 									</div>
-									<div class="g-recaptcha" data-sitekey="6LcFQ1khAAAAAEdCjTWxBJbnu2KXcxxsGzLp4ajs" data-callback="verifyCallback"></div>
+									<div class="g-recaptcha" data-sitekey="6LcFQ1khAAAAAEdCjTWxBJbnu2KXcxxsGzLp4ajs" data-callback="verifyCallback" data-expired-callback="expireCallback"></div>
 									<div class="12u$">
 										<ul class="actions">
 											<li><input type="submit" value="Send Message" class="special" disabled="true"/></li>
@@ -104,6 +104,12 @@ layout: landing
 								function verifyCallback() {
 									$("form").each(function() {
 										$(this).find(':input[type="submit"]').prop('disabled', false);
+									});
+								}
+
+								function expireCallback() {
+									$("form").each(function() {
+										$(this).find(':input[type="submit"]').prop('disabled', true);
 									});
 								}
 							</script>
