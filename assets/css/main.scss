@@ -491,15 +491,15 @@ $baseurl: '{{ site.url }}';
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			color: _palette(accent1, bg);
 		}
 
 		&.style2 {
-			color: _palette(accent3, bg);
+			color: _palette(accent2, bg);
 		}
 
 		&.style3 {
-			color: _palette(accent4, bg);
+			color: _palette(accent3, bg);
 		}
 	}
 
@@ -1220,6 +1220,10 @@ $baseurl: '{{ site.url }}';
 	}
 
 	.wrapper {
+		max-width: 1300px;
+		margin-left: auto;
+		margin-right: auto;
+
 		@include padding(6em, 0);
 
 		> .inner {
@@ -1248,7 +1252,7 @@ $baseurl: '{{ site.url }}';
 		}
 
 		&.style3 {
-			@include wrapper(accent5);
+			@include wrapper(accent3);
 		}
 
 		&.style4 {
@@ -1256,7 +1260,7 @@ $baseurl: '{{ site.url }}';
 		}
 
 		&.style5 {
-			@include wrapper(accent7);
+			@include wrapper(accent4);
 		}
 
 		@include breakpoint(medium) {
@@ -1800,7 +1804,7 @@ $baseurl: '{{ site.url }}';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/assets/images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.6))', 'url("#{$baseurl}/assets/images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
