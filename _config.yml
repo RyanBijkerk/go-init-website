@@ -7,47 +7,11 @@ owner: GO-INIT
 first_published: 2022 
 email: info@go-init.com
 baseurl: ""
-url: "https://www.go-init.com" 
+
 social:
   twitter: https://twitter.com/logitblog
   github: https://github.com/ryanbijkerk
   linkedin-square: https://linkedin.com/in/ryanbijkerk
-  # facebook-official: 
-  # google-plus-square: 
-  # email: /contact/
-  # flickr:
-  # instagram:
-  # youtube-square:
-  # spotify:
-  # stack-overflow:
-  # vimeo:
-  # reddit:
-  # stubleupon:
-  # delicious:
-  # pied-piper:
-  # digg:
-  # soundcloud:
-  # deviantart:
-  # angellist:
-  # tumblr-square:
-  # stackexchange:
-  # weibo:
-  # trello:
-  # foursquare:
-  # linux:
-  # bitbucket-square:
-  # vk:
-  # slack:
-  # vine:
-  # weixin:
-  # yelp:
-  # skyatlas:
-  # leanpub:
-  # connectdevelop:
-  # ils:
-  # forumbee:
-  # tripadvisor:
-  # amazon:
 
 # Build settings
 markdown: kramdown
