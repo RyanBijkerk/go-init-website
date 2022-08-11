@@ -1836,3 +1836,40 @@ $baseurl: '{{ site.url }}';
 			}
 		}
 	}
+
+/* Custom */
+
+	.logo-nav {
+		height: 100%; 
+		margin-top: auto; 
+		margin-bottom: auto;
+	}
+
+	.logo-header {
+		width: 100%; 
+		max-width: 500px;
+	}
+
+	.logo-main {
+		width: 100%; 
+		max-width: 500px; 
+		margin-top: 70px;
+	}
+
+	.profile-div {
+		clear: both; 
+		margin: 10px;
+	}
+
+	.profile-img {
+		border-radius: 50%; 
+		border: solid 4px white; 
+		width: 100%; 
+		max-width: 208px; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	.profile-badge {
+		width: 150px;
+	}
