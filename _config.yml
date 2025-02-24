@@ -4,9 +4,10 @@ title: GO-INIT
 description: |
   In IT 2 Win IT
 owner: GO-INIT
-first_published: 2022 
+first_published: 2022
 email: info@go-init.com
 baseurl: ""
+url: "https://www.go-init.com"
 
 social:
   twitter: https://twitter.com/logitblog
